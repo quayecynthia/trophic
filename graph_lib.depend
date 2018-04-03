@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1522575069 source:d:\telechargements\graph_lib_v1\projet ing2 trophic\grman\coords.cpp
+	"coords.h"
+
+1522575424 d:\telechargements\graph_lib_v1\projet ing2 trophic\grman\coords.h
+	<cmath>
+
+1522515823 source:d:\telechargements\graph_lib_v1\projet ing2 trophic\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522539041 d:\telechargements\graph_lib_v1\projet ing2 trophic\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 d:\telechargements\graph_lib_v1\projet ing2 trophic\grman\grman_couleurs.h
+
+1522636616 d:\telechargements\graph_lib_v1\projet ing2 trophic\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522636919 source:d:\telechargements\graph_lib_v1\projet ing2 trophic\grman\widget.cpp
+	"widget.h"
+
+1522786449 source:d:\telechargements\graph_lib_v1\projet ing2 trophic\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522790082 d:\telechargements\graph_lib_v1\projet ing2 trophic\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522786891 source:d:\telechargements\graph_lib_v1\projet ing2 trophic\graph.cpp
+	"graph.h"
+
