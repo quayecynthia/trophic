@@ -23,11 +23,13 @@ int main()
 
 
     ///Gestion des menus
+    do{
     menu.affiche_principal();
     menu.gestion_menu2(g);
 
 
 
+    ///Lancer la boucle de jeu (intéraction du graphe) si le choix du joueur=2
     if(menu.getChoix()==2)
     {
         /// Vous gardez la main sur la "boucle de jeu"
@@ -41,7 +43,14 @@ int main()
             /// Mise à jour générale (clavier/souris/buffer etc...)
             grman::mettre_a_jour();
         }
+
+        ///Retour au menu principal si on quitte le jeu et faire sauvegarde du graphe
+        menu.setChoix(0);
+
+
     }
+
+    } while(menu.getChoix()==0);
 
     grman::fermer_allegro();
 
