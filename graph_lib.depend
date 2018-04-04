@@ -54,3 +54,67 @@
 1522786891 source:d:\telechargements\graph_lib_v1\projet ing2 trophic\graph.cpp
 	"graph.h"
 
+1522763892 source:c:\users\kevin\trophic-master2\graph.cpp
+	"graph.h"
+
+1522763892 c:\users\kevin\trophic-master2\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522763892 c:\users\kevin\trophic-master2\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522763892 c:\users\kevin\trophic-master2\grman\grman_couleurs.h
+
+1522763892 c:\users\kevin\trophic-master2\grman\coords.h
+	<cmath>
+
+1522763892 c:\users\kevin\trophic-master2\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522763892 source:c:\users\kevin\trophic-master2\grman\coords.cpp
+	"coords.h"
+
+1522763892 source:c:\users\kevin\trophic-master2\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522763892 source:c:\users\kevin\trophic-master2\grman\widget.cpp
+	"widget.h"
+
+1522831761 source:c:\users\kevin\trophic-master2\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"menu.h"
+	"graph.h"
+
+1522831761 c:\users\kevin\trophic-master2\menu.h
+	<allegro.h>
+	"graph.h"
+
+1522831761 source:c:\users\kevin\trophic-master2\menu.cpp
+	"menu.h"
+	<iostream>
+
